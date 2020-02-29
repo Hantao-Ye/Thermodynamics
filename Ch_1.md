@@ -153,9 +153,9 @@ _Therefore, the **temperature** becomes the only requirement for thermal equilib
 
 $$
 \begin{split}
-T(K)&=T(C)+273.15 \\[2ex]
-T(C)&=\frac{5}{9}(T(F)-32) \\[2ex]
-T(F)&=T(R)-495.67 \\[2ex]
+T(K)&=T(C)+273.15 \\
+T(C)&=\frac{5}{9}(T(F)-32) \\
+T(F)&=T(R)-495.67 \\
 T(R)&=1.8T(K)
 \end{split}
 $$
