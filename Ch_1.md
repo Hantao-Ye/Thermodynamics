@@ -62,11 +62,11 @@ _moving boundary work_
 
 - intensive properties (independent of mass)
 
-<div align = center>pressure $p$, temperature $T$, density $\rho$</div>
+  pressure $p$, temperature $T$, density $\rho$
 
 - extensive properties (depend on mass)
 
-<div align = center>mass $m$, volume $V$</div>
+  mass $m$, volume $V$
 
 _specific volume_
 
@@ -124,6 +124,7 @@ pV=nRT
 $$
 
 - Process Diagram for a simple compressible system, $N=2$
+  
   <div align = center><img height = 400 src = "./assets/Ch_1_figure_1.png"></div>
 
 ### Quasi-equilibrium Process
@@ -134,6 +135,7 @@ $$
   <div align = center>sufficient time to restore a new equilibrium</div>
 
 - The Steady-flow Process: a process during which a fluid flows through a control volume steadily
+  
   <div align = center><img height =300 src = "./assets/Ch_1_figure_2.png"></div>
 
 ## Temperature and the Zeroth Law
