@@ -171,3 +171,34 @@ $$
 ## Pressure
 
 a normal force exerted by a fluid per unit area
+
+$$
+\begin{split}
+&1\;kPa=10^3\;Pa\quad1\;bar = 10^5\;Pa\\[2ex]
+&1\;Mpa=10^6\;Pa\\[2ex]
+&1\;atm = 760\;mmHg=1.013 \times 10^5\;Pa\\[2ex]
+&1\;mmHg = 133.3\;Pa\\[2ex]
+&1\;kgf/cm^2=9.807\;N/cm^2=9.807\times10^4\;Pa
+\end{split}
+$$
+
+### Absolute Pressure
+
+the actual pressure at given point
+
+### Gage Pressure
+
+the difference between the absolute pressure and the local atmospheric pressure
+
+### Vacuum Pressure
+
+pressures below atmospheric pressure
+
+$$
+\begin{split}
+&P_{gage}=P_{abs}-P_{atm}\\[2ex]
+&P_{vac} = P_{atm}-P_{abs}
+\end{split}
+$$
+
+<div align = center><img height = 350 src = "./assets/Ch_1_figure_3.png"></div>
