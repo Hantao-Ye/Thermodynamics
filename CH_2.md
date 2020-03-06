@@ -1,32 +1,35 @@
 # CH_2
 
-## 1. Forms of Energy
+[TOC]
 
-1. Total Energy
+## 2.1 Forms of Energy
 
-   the sum of thermal, mechanical, kinetic, potential, electric, magnetic, chemical, and nuclear
+### Total Energy
 
-   $$
-   e=\frac{E}{m}\text{ (kJ/kg)}
-   $$
+the sum of thermal, mechanical, kinetic, potential, electric, magnetic, chemical, and nuclear
 
-   - the macroscopic forms of energy
-     - kinetic energy
-       $$
-       KE=\frac{1}{2}mV^2\qquad KE=\frac{1}{2}I\omega^2
-       $$
-     - potential energy
-       $$
-       PE=mgz
-       $$
-   - the microscopic forms of energy
-     - translational energy
-     - rotational kinetic energy
-     - vibrational kinetic energy
-     - spin energy
-       <div align = center><img height = 400 src = "./assets/Ch_2_figure_1.png"></div>
+$$
+e=\frac{E}{m}\text{ (kJ/kg)}
+$$
 
-2. the expression of E
+- the macroscopic forms of energy
+  - kinetic energy
+    $$
+    KE=\frac{1}{2}mV^2\qquad KE=\frac{1}{2}I\omega^2
+    $$
+  - potential energy
+    $$
+    PE=mgz
+    $$
+- the microscopic forms of energy
+  - translational energy
+  - rotational kinetic energy
+  - vibrational kinetic energy
+  - spin energy
+    
+    <div align = center><img height = 400 src = "./assets/Ch_2_figure_1.png"></div>
+
+### the expression of E
 
 $$
 E=U+KE+PE=U+\frac{1}{2}mV^2+mgz
@@ -52,19 +55,20 @@ $$
   \dot{E}=\dot{m}e
   $$
 
-3. the forms of energy of interactions
+### the forms of energy of interactions
 
-   - a closed system: **Heat Transfer** and **work**
-   - a control system: **Heat Transfer**, **work** and **mass flow**
+- a closed system: **Heat Transfer** and **work**
+- a control system: **Heat Transfer**, **work** and **mass flow**
 
-4. Mechanical energy
+### Mechanical energy
 
-    **Definition**: the form of energy that can be converted to mechanical work completely and directly by an ideal mechanical device
+**Definition**: the form of energy that can be converted to mechanical work completely and directly by an ideal mechanical device
 
-    $$
-    e_{mech} = \frac{P}{\rho}+\frac{V^2}{2}+gz
-    $$
-## 2. Energy Transfer by Heat
+$$
+e_{mech} = \frac{P}{\rho}+\frac{V^2}{2}+gz
+$$
+
+## 2.2 Energy Transfer by Heat
 
 ### Heat
 

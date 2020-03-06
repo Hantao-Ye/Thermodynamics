@@ -2,7 +2,7 @@
 
 [TOC]
 
-## Thermodynamics and Energy
+## 1.1 Thermodynamics and Energy
 
 ### conservation of energy principle
 
@@ -20,7 +20,7 @@ During an interaction, energy can change from one form to another but **the tota
 - the macroscopic approach: **classical thermodynamics**
 - the elaborate (microscopic) approach: **statistical thermodynamics**
 
-## Systems and Control Volumes
+## 1.2 Systems and Control Volumes
 
 ### systems
 
@@ -58,7 +58,7 @@ _moving boundary work_
 - compression work
 - expansion work
 
-## Properties of a System
+## 1.3 Properties of a System
 
 ### classifications of properties
 
@@ -88,7 +88,7 @@ $$
 2. temperature $T$
 3. specific volume $v$
 
-## State and Equilibrium (time)
+## 1.4 State and Equilibrium (time)
 
 - steady
 
@@ -115,7 +115,7 @@ $$
 
 _The state of a simple system is completely specified by $r+1$ independent, intensive properties where $r$ is the number of significant work interactions_
 
-## Process and Cycles
+## 1.5 Process and Cycles
 
 ### Process Diagrams
 
@@ -140,7 +140,7 @@ $$
   
   <div align = center><img height =300 src = "./assets/Ch_1_figure_2.png"></div>
 
-## Temperature and the Zeroth Law
+## 1.6 Temperature and the Zeroth Law
 
 ### The Zeroth Law
 
@@ -170,7 +170,7 @@ $$
 T=a+bP
 $$
 
-## Pressure
+## 1.7 Pressure
 
 a normal force exerted by a fluid per unit area
 
