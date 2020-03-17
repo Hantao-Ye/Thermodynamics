@@ -2,7 +2,7 @@
 
 ## 北京交通大学-热力学工程实验（20S205Q）
 
-This is the personal notes in learning thermodynamics.
+The project is consists of notes in Thermodynamics subject.
 
 **Please feel free to:**
 
