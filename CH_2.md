@@ -43,7 +43,7 @@ $$
 
 - for an open system or a control volume
 
-  **mass flow rate**
+  **m ass flow rate**
 
   $$
   \dot{m}=\rho\dot{V}=\rho A_cV_{avg}
@@ -104,3 +104,21 @@ both heat and work are directional quantities
 - systems possess energy, but not heat or work
 - both are associated with a process, not a state
 - both are path functions
+
+## 2.3 the First Law of Thermodynamics
+
+- **Energy can be neither created nor destroyed during a process; it can only change forms**
+- **Energy Balance**
+
+$$
+E_{in}-E_{out}=\Delta E_{System}=\Delta U +\Delta KE+\Delta PE
+$$
+
+## 2.4 Energy Conversion Efficiencies
+
+### Efficiency
+
+$$
+\text{Efficiency}=\frac{\text{Desired Output}}{\text{Required Input}}\\[2ex]
+\eta_{overall}=\prod^{n}{\eta_i}
+$$
