@@ -40,7 +40,7 @@ $$
 Q-W = \Delta E_{\text{system}}
 $$
 
-### 4.3 Specific Heats
+## 4.3 Specific Heats
 
 Definition: the energy required to raise the temperature of a unit mass of a substance by one degree
 
