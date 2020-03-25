@@ -180,7 +180,7 @@ For water: the state of saturated liquid at $0.01^\circ{C}$
 
 *When $p \to 0$, $v \to \infty$, the real gas can be treated as the ideal gas*
 
-### Ideal-gad Equation of State
+### Ideal-gas Equation of State
 
 $$
 P\nu = RT\\[2ex]

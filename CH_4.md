@@ -51,3 +51,41 @@ $$
 c_v=(\frac{\partial{h}}{\partial{T}})_v\\[2ex]
 c_p=(\frac{\partial{h}}{\partial{T}})_p\\[2ex]
 $$
+
+## 4.4 Internal Energy, Enthalpy, and Specific Heats of Ideal Gases
+
+$$
+h=u+RT\qquad
+\begin{cases}
+    h&=u+Pv\\[2ex]
+    Pv&=RT
+\end{cases}\\[4ex]
+\begin{aligned}
+    \mathrm{d}u&=c_v(T)\mathrm{d}T\\[2ex]
+    \mathrm{d}h&=c_p(T)\mathrm{d}T\\[2ex]
+\end{aligned}
+$$
+
+### Specific Heat Relationship of Ideal Gases
+
+$$
+\begin{aligned}
+    c_p&=c_v+R\\[2ex]
+    \bar{c}_p&=\bar{c}_v+R_u\\[2ex]
+\end{aligned}\\[2ex]
+k=\frac{c_p}{c_v}
+$$
+
+## 4.5 Internal Energy, Enthalpy, and Specific Heats of Solids and Liquids
+
+### Internal Energy Changes
+
+$$
+\Delta u \approxeq c_{avg}(T_2-T_1)
+$$
+
+### Enthalpy Changes
+
+$$
+\Delta h =\Delta u +v\Delta P 
+$$
