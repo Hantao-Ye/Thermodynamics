@@ -105,3 +105,110 @@ Any devices that violates either law of thermodynamics is called a perpetual-mot
 
 - PMM1: violate the first law of thermodynamics
 - PMM2: violate the second law of thermodynamics
+
+## 6.6 Reversible and Irreversible Processes
+
+### Definitions
+
+- **reversible process**: a process that can be reversed without leaving any trace on the surroundings
+- **irreversible process**: a process that is not reversible
+
+> reversible process is only possible only if the net heat and net work exchange between the system, and the surroundings is zero for the combined (original and reverse) process
+
+<div align = center><img src = "./assets/Ch_6_figure_6.png"></div>
+
+### Irreversibilities
+
+#### Definition
+
+the factors that cause to be irreversible are called irreversibilities
+
+>which include **friction**, **unstrained expansion**, mixing of two fluids, **heat transfer** across a finite temperature difference, electric resistance, inelastic deformation of solids and chemical reactions
+
+<div align = center><img src = "./assets/Ch_6_figure_7.png"></div>
+<div align = center><img src = "./assets/Ch_6_figure_8.png"></div>
+<div align = center><img src = "./assets/Ch_6_figure_9.png"></div>
+
+### Internally and Externally Reversible Processes
+
+#### Definition
+
+- **internally reversible**: if no irreversibilities occur within the boundaries of the system during the process
+- **externally reversible**: if no irreversibilities occur outside the system boundaries during the process
+- **totally reversible (reversible)**: if it involves no irreversibilities within the system or its surroundings
+
+## 6.7 The Carnot Cycle
+
+the best known reversible cycle is the **Carnot cycle**, and the theoretical heat engine that operates on the Carnot cycle is called the **Carnot heat engine**
+
+### The Carnot Process
+
+1. Reversible Isothermal Expansion
+2. Reversible Adiabatic Expansion
+3. Reversible Isothermal Compression
+4. Reversible Adiabatic Compression
+
+> adiabatic: occurring without loss or gain of heat
+
+<div align = center><img src = "./assets/Ch_6_figure_10.png"></div>
+<div align = center><img src = "./assets/Ch_6_figure_11.png"></div>
+
+### The Reversed Carnot Process
+
+<div align = center><img src = "./assets/Ch_6_figure_12.png"></div>
+
+## 6.8 The Carnot Principles
+
+### Principles
+
+1. The efficiency of an irreversible heat engine is **always less** than the efficiency of a reversible one operating between the same two reservoirs;
+2. The efficiencies of all reversible heat engines operating between the same two reservoirs are the same;
+
+<div align = center><img src = "./assets/Ch_6_figure_13.png"></div>
+<div align = center><img src = "./assets/Ch_6_figure_14.png"></div>
+
+## 6.9 The Thermodynamic Temperature Scale
+
+a temperature scale that is **independent** of the properties of the substances that are used to measure temperature 
+
+$$
+\Big(\frac{Q_H}{Q_L}\Big)_{rev}=\frac{T_H}{T_L}
+$$
+
+the temperature scale is called the **Kelvin scale**, and the temperatures on this scale are called **absolute temperatures**
+
+$$
+T(C^{\circ})=T(K)-273.15
+$$
+
+## 6.10 The Carnot Heat Engine
+
+$$
+\eta_{th}=1-\frac{Q_L}{Q_H}\\[2ex]
+\eta_{th,rev}=1-\frac{T_L}{T_H}\\[2ex]
+$$
+
+the relation id often referred to as the Carnot efficiency
+
+$$\eta_{th}
+\begin{cases}
+    <\eta_{th,rev}&\qquad \text{irreversible heat engine}\\[2ex]
+    =\eta_{th,rev}&\qquad \text{reversible heat engine}\\[2ex]
+    >\eta_{th,rev}&\qquad \text{impossible heat engine}\\[2ex]
+\end{cases}  
+$$
+
+### 6.11 The Carnot Refrigerator and Heat Pump
+
+$$
+COP_{R,rev}=\frac{1}{T_H/T_L-1}\\[2ex]
+COP_{R,rev}=\frac{1}{1-T_H/T_L}\\[2ex]
+$$
+
+$$COP_{R}
+\begin{cases}
+    <COP_{R,rev}&\qquad \text{irreversible refrigerator}\\[2ex]
+    =COP_{R,rev}&\qquad \text{reversible refrigerator}\\[2ex]
+    >COP_{R,rev}&\qquad \text{impossible refrigerator}\\[2ex]
+\end{cases}  
+$$
