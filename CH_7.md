@@ -112,3 +112,122 @@ $$
 $$
 
 It should be recognized that ***a reversible adiabatic process*** is necessarily ***isentropic*** ($s_2=s_1$), but an ***isentropic process*** **is not necessarily** a ***reversible adiabatic process***.
+
+## 7.5 Property Diagrams Involving Entropy
+
+$$
+\delta Q_{int\; rev}= T \mathrm{d}S\\[2ex]
+Q_{int\; rev}= \int_1^2{T\mathrm{d}S}\\[2ex]
+$$
+
+<div align = center><img src = "./assets/Ch_7_figure_2.png"></div>
+
+## 7.6 What is Entropy
+
+### Boltzmann Relation
+
+$$
+S = k \ln W
+$$
+
+### Gibbs's Formulation
+
+$$
+S = -k\sum{p_i \log p_i} \qquad p_i = \frac{1}{W}<<1
+$$
+
+### Third Law of Thermodynamics
+
+> **the entropy of a pure crystalline substance at absolute zero temperature is zero**
+
+## 7.7 The T ds Relations
+
+$$
+\delta Q_{int\;rev}-\delta W_{int\; rev,out}=\mathrm{d}U
+$$
+
+And
+
+$$
+\delta Q_{int\;rev}=T\mathrm{d}S\\[2ex]
+\delta W_{int\; rev,out}=P\mathrm{d}V\\[2ex]
+$$
+
+Therefore,
+
+$$
+T\mathrm{d}s = \mathrm{d}u+P\mathrm{d}v\\[2ex]
+\mathrm{d}s = \frac{1}{T}(\mathrm{d}u+P\mathrm{d}v)
+$$
+
+the second equation is obtained by h
+
+$$
+\mathrm{d}h = \mathrm{d}u+P\mathrm{d}V+v\mathrm{d}P=T\mathrm{d}s+v\mathrm{d}P\\[2ex]
+\mathrm{d}s = \frac{1}{T}(\mathrm{d}h-v\mathrm{d}P)
+$$
+
+## 7.8 Entropy Change of Liquids and Solids
+
+since liquids and solids can be approximated as **incompressible** substances
+
+$$
+\mathrm{d}s = \frac{\mathrm{d}u}{T}=\frac{c\mathrm{d}T}{T}\\[2ex]
+s_2-s_1 = \int_1^2{c(T)\frac{\mathrm{d}T}{T}}\approxeq c_{avg}\ln{\frac{T_2}{T_1}}
+$$
+
+when the progress is isentropic, the entropy change equals to 0
+
+## 7.9 The Entropy Change of Ideal Gases
+
+$$
+\mathrm{d}s =c_v \frac{\mathrm{d}T}{T}+R\frac{\mathrm{d}v}{v}\\[2ex]
+s_2-s_1 = \int_1^2{c_v(T)\frac{\mathrm{d}T}{T}+R\ln{\frac{v_2}{v_1}}}= \int_1^2{c_p(T)\frac{\mathrm{d}T}{T}-R\ln{\frac{P_2}{P_1}}}
+$$
+
+### Variable Specific Heats
+
+choose absolute zero as the reference temperature and define a function $s^o$ as
+
+$$
+s^o = \int_0^T{c_p(T)\frac{\mathrm{d}T}{T}}\\[2ex]
+s_2-s_1 = s_2^o-s_1^o-R\ln {\frac{P_2}{P_1}}
+$$
+
+### Constant Specific Heat 
+
+during the **isentropic progress**, the change of the entropy equals to 0, therefore,
+
+$$
+\ln\frac{T_2}{T_1}=-\frac{R}{c_v}\ln\Big(\frac{v_w}{v_q}\Big)\\[2ex]
+\ln\frac{T_2}{T_1}=\ln\Big(\frac{v_1}{v_2}\Big)^{R/c_v}\\[2ex]
+\Big(\frac{T_2}{T_1}\Big)=\Big(\frac{v_1}{v_2}\Big)^{R/c_v} = \Big(\frac{v_1}{v_2}\Big)^{k-1}
+$$
+
+where $R =c_p-c_v$, $k=c_p/c_v$ and $R/c_v=k-1$
+
+similarly, the another equation comes to
+
+$$
+\Big(\frac{T_2}{T_1}\Big)=\Big(\frac{P_2}{P_1}\Big)^{(k-1)/k}
+$$
+
+combing the two equation
+
+$$
+\Big(\frac{P_2}{P_1}\Big)=\Big(\frac{v_1}{v_2}\Big)^{k}
+$$
+
+### Relative Pressure and Relative Specific Volume
+
+similarly, from the equation we can get
+
+$$
+\frac{P_2}{P_1} = \exp{\frac{s_2^o-s_1^o}{R}}=\frac{\exp{s_2^o}/R}{\exp{s_1^o/R}}\\[2ex]
+$$
+
+define $\exp{s^o/R}$ as the relative pressure $P_r$
+
+$$
+\Big(\frac{P_2}{P_1}\Big)_{s=const}=\frac{P_{r2}}{P_{r1}}\qquad \Big(\frac{v_2}{v_1}\Big)_{s=const}=\frac{v_{r2}}{v_{r1}}
+$$
