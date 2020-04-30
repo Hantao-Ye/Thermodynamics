@@ -231,3 +231,44 @@ define $\exp{s^o/R}$ as the relative pressure $P_r$
 $$
 \Big(\frac{P_2}{P_1}\Big)_{s=const}=\frac{P_{r2}}{P_{r1}}\qquad \Big(\frac{v_2}{v_1}\Big)_{s=const}=\frac{v_{r2}}{v_{r1}}
 $$
+
+## 7.10 Reversible Steady-Flow Work
+
+the energy transform for a steady-flow device undergoing an internally reversible process can be expresses in differential form as
+
+$$
+\delta q_{rev}-\delta w_{rev} = \mathrm{d}h+\mathrm{d}ke+\mathrm{d}pe
+$$
+
+since $\delta q_{rev}=\mathrm{d}h-v\mathrm{d}P$
+
+$$
+-\delta w_{rev}=v\mathrm{d}P+\mathrm{d}ke+\mathrm{d}pe
+$$
+
+therefore,
+
+$$
+w_{rev}=-\int_1^2{v\mathrm{d}P-\Delta ke-\Delta pe}
+$$
+
+when the changes in energy are negligible
+
+$$
+w_{rev}=-\int_1^2{v\mathrm{d}P}
+$$
+
+to avoid the negative sign, define the work input to steady flow system as
+
+$$
+w_{rev,in}=\int_1^2{v\mathrm{d}P+\Delta ke+\Delta pe}
+$$
+
+for steady flow system that involves no work interactions
+
+$$
+w_{rev}=v(P_2-P_1)+\frac{V_2^2-V_1^2}{2}+g(z_2-z_1)=0
+$$
+
+which becomes the famous **Bernoulli Equation**
+
