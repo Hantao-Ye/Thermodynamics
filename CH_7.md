@@ -111,7 +111,7 @@ $$
 \Delta s = 0\quad\text{or}\quad s_1=s_2
 $$
 
-It should be recognized that ***a reversible adiabatic process*** is necessarily ***isentropic*** ($s_2=s_1$), but an ***isentropic process*** **is not necessarily** a ***reversible adiabatic process***.
+It should be recognized that **_a reversible adiabatic process_** is necessarily **_isentropic_** ($s_2=s_1$), but an **_isentropic process_** **is not necessarily** a **_reversible adiabatic process_**.
 
 ## 7.5 Property Diagrams Involving Entropy
 
@@ -194,7 +194,7 @@ s^o = \int_0^T{c_p(T)\frac{\mathrm{d}T}{T}}\\[2ex]
 s_2-s_1 = s_2^o-s_1^o-R\ln {\frac{P_2}{P_1}}
 $$
 
-### Constant Specific Heat 
+### Constant Specific Heat
 
 during the **isentropic progress**, the change of the entropy equals to 0, therefore,
 
@@ -272,3 +272,75 @@ $$
 
 which becomes the famous **Bernoulli Equation**
 
+## 7.11 Minimizing the Compressor Work
+
+from the former equation, we can claim that when the changes in kinetic and potential energies are negligible, the compressor work is given by
+
+$$
+w_{rev,in} = \int_1^2{v \mathrm{d}P}
+$$
+
+- minimizing the irreversibilities such as friction, turbulence and nonquasi-equilibrium compression
+- keep the specific volume of the gas as small as possible during the compression process
+
+the second minimizing could be done by **maintaining the temperature of the gas as low as possible during compression** since the specific volume of a gas is proportional to temperature
+
+<div align = center><img src = "./assets/Ch_7_figure_3.png"></div>
+
+- Isentropic ($Pv^k = \text{constant}$)
+
+$$
+w_{comp,in}=\frac{kR(T_2-T_1)}{k-1}=\frac{kRT_1}{k-1}[\Big(\frac{P_2}{P_1}\Big)^{(k-1)/k}-1]
+$$
+
+- Polytropic ($Pv^n = \text{constant}$)
+
+$$
+w_{comp,in}=\frac{nR(T_2-T_1)}{n-1}=\frac{nRT_1}{n-1}[\Big(\frac{P_2}{P_1}\Big)^{(n-1)/n}-1]
+$$
+
+- Isothermal ($Pv = \text{constant}$)
+
+$$
+w_{comp,in} = RT\ln\frac{P_2}{P_1}
+$$
+
+### Multistage Compression with Intercooling
+
+the technique where gas is compressed in stages and cooled between each stage by passing it through a heat exchanger called an intercooler
+
+<div align = center><img src = "./assets/Ch_7_figure_4.png"></div>
+
+$$
+\begin{aligned}
+w_{comp,in} &= w_{comp I,in}+w_{comp II,in}\\[2ex]
+            &= \frac{nRT_1}{n-1}[\Big(\frac{P_x}{P_1}\Big)^{(n-1)/n}-1]+\frac{nRT_1}{n-1}[\Big(\frac{P_2}{P_x}\Big)^{(n-1)/n}-1]
+\end{aligned}
+$$
+
+$$
+P_x = (P_1P_2)^{1/2} \qquad \frac{P_x}{P_1} = \frac{P_2}{P_x}
+$$
+
+## 7.12 Isentropic Efficiencies of Steady-Flow Devices
+
+### Isentropic Efficiency of Turbines
+
+$$
+\eta_T = \frac{\text{Actual turbine work}}{\text{Isentropic turbine work}}=\frac{w_a}{w_s} \approxeq \frac{h_1-h_{2a}}{h_1-h_{2s}}
+$$
+<div align = center><img src = "./assets/Ch_7_figure_5.png"></div>
+
+### Isentropic Efficiency of Compressors and Pumps
+
+$$
+\eta_C = \frac{\text{Isentropic turbine work}}{\text{Actual turbine work}}=\frac{w_s}{w_a} \approxeq \frac{h_{2s}-h_1}{h_{2a}-h_1}
+$$
+
+<div align = center><img src = "./assets/Ch_7_figure_6.png"></div>
+
+### Isentropic Efficiency of Nozzles
+
+$$
+\eta_N = \frac{\text{Actual KE at nozzle exit}}{\text{Isentropic KE at nozzle exit}}=\frac{V_{2a}^2}{V_{2s}^2}\approxeq \frac{h_1-h_{2a}}{h_1-h_{2s}}
+$$
