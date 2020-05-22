@@ -190,7 +190,8 @@ $$
 
 the relation id often referred to as the Carnot efficiency
 
-$$\eta_{th}
+$$
+\eta_{th}
 \begin{cases}
     <\eta_{th,rev}&\qquad \text{irreversible heat engine}\\[2ex]
     =\eta_{th,rev}&\qquad \text{reversible heat engine}\\[2ex]
@@ -205,7 +206,9 @@ COP_{R,rev}=\frac{1}{T_H/T_L-1}\\[2ex]
 COP_{R,rev}=\frac{1}{1-T_H/T_L}\\[2ex]
 $$
 
-$$COP_{R}
+
+$$
+COP_{R}
 \begin{cases}
     <COP_{R,rev}&\qquad \text{irreversible refrigerator}\\[2ex]
     =COP_{R,rev}&\qquad \text{reversible refrigerator}\\[2ex]
