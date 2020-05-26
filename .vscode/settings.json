@@ -6,5 +6,8 @@
         "kmol",
         "multifluid",
         "surr"
+    ],
+    "cSpell.ignoreWords": [
+        "isentropically"
     ]
 }
